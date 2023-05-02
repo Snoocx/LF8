@@ -1,5 +1,6 @@
 package LF8;
 import LF8.Aufgaben_Tag1.*;
+import LF8.Aufgaben_Tag2.*;
 import LF8.Extras.*;
 
 public class App {
@@ -22,6 +23,15 @@ public class App {
         // Wahrheitswerte wW = new Wahrheitswerte();
         // wW.Start();
         
+        // --------------- Aufgaben Tag 2 ---------------
+
+        // Test test = new Test();
+        // test.Start();
+
+    }
+
+    private void Extras(){
+
         // --------------- Extras ---------------
 
         // Benutzereingabe be = new Benutzereingabe();

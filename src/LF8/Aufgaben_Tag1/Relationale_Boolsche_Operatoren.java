@@ -1,5 +1,5 @@
 package LF8.Aufgaben_Tag1;
-import LF8.IAufgabe;
+import LF8.Interfaces.IAufgabe;
 
 public class Relationale_Boolsche_Operatoren implements IAufgabe {
     public void Start() {

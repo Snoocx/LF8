@@ -1,4 +1,4 @@
-package LF8;
+package LF8.Interfaces;
 
 public interface IAufgabe {
     void Start();

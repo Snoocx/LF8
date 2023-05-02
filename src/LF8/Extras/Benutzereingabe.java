@@ -1,6 +1,6 @@
 package LF8.Extras;
 import java.util.*;
-import LF8.IAufgabe;
+import LF8.Interfaces.IAufgabe;
 
 public class Benutzereingabe implements IAufgabe {
     public void Start() {
