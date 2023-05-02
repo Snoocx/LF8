@@ -1,9 +1,8 @@
-public class Wahrheitswerte {
-    public Wahrheitswerte(){
+public class Wahrheitswerte implements IAufgabe {
+    public void Start() {
         boolean a = true;
         boolean b = true;
         boolean c = false;
-        boolean ergebnis;
 
         // Exklusive Oder auf a und b anwenden
         // Exklusive oder auf a und c anwenden

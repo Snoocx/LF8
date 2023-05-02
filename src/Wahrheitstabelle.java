@@ -1,5 +1,5 @@
-public class Wahrheitstabelle {
-    public Wahrheitstabelle(){
+public class Wahrheitstabelle implements IAufgabe {
+    public void Start() {
         boolean a,b;
 
         //1 &&
@@ -10,7 +10,6 @@ public class Wahrheitstabelle {
         System.out.println("1. a OR b: " + (a || b));
         //1 ^
         System.out.println("1. a XOR b: " + (a ^ b));        
-
         System.out.println("\n");
 
         //2 &&
@@ -21,7 +20,6 @@ public class Wahrheitstabelle {
         System.out.println("2. a OR b: " + (a || b));
         //2 ^
         System.out.println("2. a XOR b: " + (a ^ b));  
-        
         System.out.println("\n");
 
         //3 &&
@@ -32,7 +30,6 @@ public class Wahrheitstabelle {
         System.out.println("3. a OR b: " + (a || b));
         //3 ^
         System.out.println("3. a XOR b: " + (a ^ b));  
-
         System.out.println("\n");
 
         //4 &&
@@ -43,7 +40,6 @@ public class Wahrheitstabelle {
         System.out.println("4. a OR b: " + (a || b));
         //4 ^
         System.out.println("4. a XOR b: " + (a ^ b));  
-
         System.out.println("\n");
 
         //5 &&

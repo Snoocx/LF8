@@ -1,7 +1,6 @@
-public class Datentypen {
-    
-    /// Constructor
-    public Datentypen(){
+public class Datentypen implements IAufgabe {
+
+    public void Start() {
         char x = 'x';
         char y[] = {'x', 'y', 'z'};
         String yString = "xyz";

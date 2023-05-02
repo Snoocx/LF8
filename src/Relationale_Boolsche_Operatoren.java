@@ -1,6 +1,5 @@
-public class Relationale_Boolsche_Operatoren {
-    public Relationale_Boolsche_Operatoren(){
-        
+public class Relationale_Boolsche_Operatoren implements IAufgabe {
+    public void Start() {
         int x = 10;
         double y = 10.5;
         float f = 12f;
@@ -24,7 +23,6 @@ public class Relationale_Boolsche_Operatoren {
 
         // XOR Operator( ^ )
         System.out.println("Die Antwort: " + ((x > 0) ^ (y < 20))); // false, weil beide Bedinungen wahr sind
-        System.out.println("Die Antwort: " + ((x > 0) ^ (y > 20))); // true, weil nur eine Bedinungen wahr ist
-
+        System.out.println("Die Antwort: " + ((x > 0) ^ (y > 20))); // true, weil nur eine Bedinungen wahr ist;
     }
 }

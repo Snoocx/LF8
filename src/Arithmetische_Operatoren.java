@@ -1,7 +1,5 @@
-public class Arithmetische_Operatoren {
-
-    /// Constructor
-    public Arithmetische_Operatoren(){
+public class Arithmetische_Operatoren implements IAufgabe {
+    public void Start() {
         float a = 5f;
         float b = 10f;
         float c, d, e, f;
@@ -26,5 +24,4 @@ public class Arithmetische_Operatoren {
         System.out.print("Modulo i: " + i + "\n");
         System.out.print("Modulo j: " + j + "\n");
     }
-
 }
