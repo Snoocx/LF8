@@ -14,7 +14,9 @@ public class App {
 
         // new Relationale_Boolsche_Operatoren();
 
-        new Wahrheitstabelle();
+        new Wahrheitswerte();
+
+        //new Wahrheitstabelle();
 
     }
 }

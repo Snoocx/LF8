@@ -5,6 +5,7 @@ public class Datentypen {
         char x = 'x';
         char y[] = {'x', 'y', 'z'};
         String yString = "xyz";
+        
         float f = 1.25f;
         double d = 32;
 
