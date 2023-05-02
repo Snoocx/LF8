@@ -1,3 +1,6 @@
+package LF8.Aufgaben_Tag1;
+import LF8.IAufgabe;
+
 public class Arithmetische_Operatoren implements IAufgabe {
     public void Start() {
         float a = 5f;

@@ -1,3 +1,6 @@
+package LF8.Aufgaben_Tag1;
+import LF8.IAufgabe;
+
 public class Wahrheitswerte implements IAufgabe {
     public void Start() {
         boolean a = true;

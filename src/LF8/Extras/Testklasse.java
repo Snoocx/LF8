@@ -1,3 +1,5 @@
+package LF8.Extras;
+
 public class Testklasse {
     private String ausgabe = "Testausgabe";
 

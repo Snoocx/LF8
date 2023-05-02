@@ -1,3 +1,4 @@
+package LF8.Extras;
 public class Overridetest extends Testklasse {
     public Overridetest() {
         //super(0);
