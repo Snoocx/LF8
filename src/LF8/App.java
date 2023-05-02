@@ -5,7 +5,6 @@ import LF8.Extras.*;
 
 public class App {
     public static void main(String[] args) {
-
         // --------------- Aufgaben Tag 1 ---------------
 
         // Datentypen datentypen = new Datentypen();
@@ -31,7 +30,6 @@ public class App {
     }
 
     private void Extras(){
-
         // --------------- Extras ---------------
 
         // Benutzereingabe be = new Benutzereingabe();

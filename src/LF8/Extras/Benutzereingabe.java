@@ -8,5 +8,6 @@ public class Benutzereingabe implements IAufgabe {
         System.out.println("Geben Sie bitte Ihren namen ein: ");
         String name = input.nextLine();
         System.out.println("Dein Name ist: " + name);
+        input.close();
     }
 }

@@ -12,7 +12,7 @@ public class Datentypen implements IAufgabe {
 
         System.out.println("x: " + x);
         System.out.print("y[]: ");
-        for (char c : y) { // char array (y) als String ausgeben
+        for (char c : y) { // char array (y[]) als String ausgeben
             System.out.print(c);            
         }
         System.out.print("\n");
