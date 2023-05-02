@@ -4,20 +4,22 @@ public class App {
         // TT tt = new TT();
         // System.out.println(tt.getClass().getName());
 
-        // // Datentypen datentypen = new Datentypen();
+        // Datentypen datentypen = new Datentypen();
         // new Datentypen();
 
-        // //Arithmetische_Operatoren ao = new Arithmetische_Operatoren();
+        // Arithmetische_Operatoren ao = new Arithmetische_Operatoren();
         // new Arithmetische_Operatoren();
         
-        // //new Benutzereingabe();
+        //new Benutzereingabe();
 
-        // new Relationale_Boolsche_Operatoren();
+        //new Relationale_Boolsche_Operatoren();
 
-        new Wahrheitswerte();
+        //new Wahrheitswerte();
 
         //new Wahrheitstabelle();
 
+        //new Testklasse();
+        new Overridetest();
     }
 }
 
