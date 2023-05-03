@@ -1,9 +1,7 @@
 package LF8.Aufgaben_Tag2;
-
 import LF8.Interfaces.IAufgabe;
 
 public class Bedingter_Operator implements IAufgabe{
-
     int a;
     int b;
     int max;

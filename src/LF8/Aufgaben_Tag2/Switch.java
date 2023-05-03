@@ -1,7 +1,5 @@
 package LF8.Aufgaben_Tag2;
-
 import java.util.Scanner;
-
 import LF8.Interfaces.IAufgabe;
 
 public class Switch implements IAufgabe {

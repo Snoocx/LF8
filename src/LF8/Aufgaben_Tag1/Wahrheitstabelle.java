@@ -3,7 +3,8 @@ import LF8.Interfaces.IAufgabe;
 
 public class Wahrheitstabelle implements IAufgabe {
     public void Start() {
-        boolean a,b;
+        boolean a;
+        boolean b;
 
         //1
         a = false;
