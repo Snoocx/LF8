@@ -24,16 +24,13 @@ public class App {
         
         // --------------- Aufgaben Tag 2 ---------------
 
-        // Test test = new Test();
-        // test.Start();
+        Benutzereingabe be = new Benutzereingabe();
+        be.Start();
 
     }
 
     private void Extras(){
         // --------------- Extras ---------------
-
-        // Benutzereingabe be = new Benutzereingabe();
-        // be.Start();
 
         // new Testklasse();
         // Overridetest overrideTest = new Overridetest();

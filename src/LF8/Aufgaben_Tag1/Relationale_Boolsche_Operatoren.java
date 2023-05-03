@@ -5,8 +5,6 @@ public class Relationale_Boolsche_Operatoren implements IAufgabe {
     public void Start() {
         int x = 10;
         double y = 10.5;
-        float f = 12f;
-        boolean z = false;
 
         //Relationale Operatoren( <> )
         System.out.println("Die Antwort zu x > 0 lautet: " + (x > 0));
