@@ -13,11 +13,11 @@ public class Benutzereingabe_Verzweigung implements IAufgabe {
         input.close();
     }
     
-    public double Zahl(){
+    private double Zahl(){
         return input.nextDouble();
     }
 
-    public void CheckZahl(double zahl){
+    private void CheckZahl(double zahl){
         if(zahl >= 10 && zahl <= 20){
             System.out.println("Die Zahl " + zahl + " liegt im Bereich von 10 bis 20");    
         } else if(zahl < 10){
