@@ -23,9 +23,7 @@ public class Kapitalverdoppelung implements IAufgabe{
         do{
             kapital = kapital * (1 + zinsSatz / 100);
             jahr = jahr + 1;
-
         }while(kapital < 2 * startKapital);
-
 
         JOptionPane.showMessageDialog(null, "Kapital: " + kapital + "\nKapitalverdoppelung nach " + jahr + " Jahren.");
         input.close();
