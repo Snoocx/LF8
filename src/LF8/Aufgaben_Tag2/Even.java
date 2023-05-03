@@ -3,9 +3,11 @@ import LF8.Interfaces.IAufgabe;
 
 public class Even implements IAufgabe {
     public void Start() {
-        for(int i = 0; i <= 50; i++){
+        int i = 0;
+        while(i <= 50){
             if(i % 2 == 0)
                 System.out.print(i + " ");
+            i++;
         }
     }
 }
