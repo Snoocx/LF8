@@ -1,6 +1,7 @@
 package LF8.Aufgaben_Tag2;
 import java.util.*;
 import LF8.Interfaces.IAufgabe;
+import javax.swing.JOptionPane;
 
 public class GGT implements IAufgabe{
     private Scanner input;
@@ -9,10 +10,10 @@ public class GGT implements IAufgabe{
         int m, n, r;
 
         input = new Scanner(System.in);
-        System.out.print("Erste Zahl eingeben: ");
-        m = input.nextInt();
-        System.out.print("Zweite Zahl eingeben: ");
-        n = input.nextInt();
+        String eingabeM = JOptionPane.showInputDialog("Erste Zahl eingeben: ");
+        m = Integer.parseInt(eingabeM);
+        String eingabeN = JOptionPane.showInputDialog("Zweite Zahl eingeben: ");
+        n = Integer.parseInt(eingabeN);
         r = m % n;
 
         while (r > 0){
@@ -21,7 +22,7 @@ public class GGT implements IAufgabe{
             r = m % n;
         } 
 
-        System.out.println(n);
+        JOptionPane.showMessageDialog(null, n + " ist der Größte Gemeinsame Nenner");
         input.close();
     }
     

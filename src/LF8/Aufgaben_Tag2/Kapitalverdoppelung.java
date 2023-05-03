@@ -1,6 +1,7 @@
 package LF8.Aufgaben_Tag2;
 import java.util.Scanner;
 import LF8.Interfaces.IAufgabe;
+import javax.swing.JOptionPane;
 
 public class Kapitalverdoppelung implements IAufgabe{
     private Scanner input;
@@ -12,10 +13,11 @@ public class Kapitalverdoppelung implements IAufgabe{
         double kapital;
         
         input = new Scanner(System.in);
-        System.out.println("Startkapital: ");
-        startKapital = input.nextDouble();
-        System.out.println("Zinssatz: ");
-        zinsSatz = input.nextDouble();
+        String eingabeSK = JOptionPane.showInputDialog("Startkapital: ");
+        startKapital = Integer.parseInt(eingabeSK);
+
+        String eingabeZS = JOptionPane.showInputDialog("Zinssatz: ");
+        zinsSatz = Integer.parseInt(eingabeZS);
         kapital = startKapital;
 
         do{
@@ -24,8 +26,8 @@ public class Kapitalverdoppelung implements IAufgabe{
 
         }while(kapital < 2 * startKapital);
 
-        System.out.println("Kapital: " + kapital);
-        System.out.println("Kapitalverdoppelung nach " + jahr + " Jahren.");
+
+        JOptionPane.showMessageDialog(null, "Kapital: " + kapital + "\nKapitalverdoppelung nach " + jahr + " Jahren.");
         input.close();
     }
     
