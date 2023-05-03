@@ -42,8 +42,11 @@ public class App {
         // WhileSchleife ws = new WhileSchleife();
         // ws.Start();
 
-        DoWhileSchleife dw = new DoWhileSchleife();
-        dw.Start();
+        // DoWhileSchleife dw = new DoWhileSchleife();
+        // dw.Start();
+
+        Even e = new Even();
+        e.Start();
 
     }
 

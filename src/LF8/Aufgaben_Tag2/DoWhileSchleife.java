@@ -16,7 +16,7 @@ public class DoWhileSchleife implements IAufgabe {
         do {
             System.out.println("Bitte geben Sie einen Text ein: ");
             text = input.nextLine();
-            if(text.length() == 0 || text == "q")
+            if(text.length() == 0 || text.equals("q"))
                 break;
             System.out.println("\nEingegebener Text: " + text);
             System.out.println("text.length(): " + text.length() + "\n");
