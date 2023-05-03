@@ -10,11 +10,11 @@ public class Switch implements IAufgabe {
     public void Start() {
         input = new Scanner(System.in);
         System.out.println("Geben Sie eine Zahl ein: ");
-        CheckZahl(Zahl());    
+        CheckZahl(GetZahl());    
         input.close();
     }
 
-    private int Zahl(){
+    private int GetZahl(){
         return input.nextInt();
     }
 

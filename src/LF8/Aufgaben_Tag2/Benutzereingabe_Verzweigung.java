@@ -8,12 +8,12 @@ public class Benutzereingabe_Verzweigung implements IAufgabe {
     public void Start() {
         input = new Scanner(System.in);
         System.out.println("Geben Sie eine Zahl ein: ");
-        double zahl = Zahl();
+        double zahl = GetZahl();
         CheckZahl(zahl);    
         input.close();
     }
     
-    private double Zahl(){
+    private double GetZahl(){
         return input.nextDouble();
     }
 
