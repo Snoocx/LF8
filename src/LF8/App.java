@@ -24,8 +24,11 @@ public class App {
         
         // --------------- Aufgaben Tag 2 ---------------
 
-        Benutzereingabe be = new Benutzereingabe();
-        be.Start();
+        // Benutzereingabe be = new Benutzereingabe();
+        // be.Start();
+
+        Benutzereingabe_Verzweigung bv = new Benutzereingabe_Verzweigung();
+        bv.Start();
 
     }
 
