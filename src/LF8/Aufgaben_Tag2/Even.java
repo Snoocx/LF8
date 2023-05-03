@@ -2,11 +2,13 @@ package LF8.Aufgaben_Tag2;
 import LF8.Interfaces.IAufgabe;
 
 public class Even implements IAufgabe {
+    /* Es sollen alle gerade Zahlen von 0 bis 50 in einer Zeile ausgegeben werden,
+     * jeweils durch ein Leerzeichen getrennt (mit einer While- oder For-Schleife)
+     */
     public void Start() {
         int i = 0;
         while(i <= 50){
-            if(i % 2 == 0)
-                System.out.print(i + " ");
+                System.out.print((i % 2 == 0) ? i : " ");
             i++;
         }
     }

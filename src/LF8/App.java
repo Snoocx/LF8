@@ -45,8 +45,17 @@ public class App {
         // DoWhileSchleife dw = new DoWhileSchleife();
         // dw.Start();
 
-        Even e = new Even();
-        e.Start();
+        // Even e = new Even();
+        // e.Start();
+
+        // Zahlenpyramide zp = new Zahlenpyramide();
+        // zp.Start();
+
+        // GGT gg = new GGT();
+        // gg.Start();
+
+        // Kapitalverdoppelung kv = new Kapitalverdoppelung();
+        // kv.Start();
 
     }
 
