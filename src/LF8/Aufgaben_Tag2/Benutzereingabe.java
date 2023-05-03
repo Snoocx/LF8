@@ -7,20 +7,24 @@ public class Benutzereingabe implements IAufgabe {
 
     public void Start() {
         input = new Scanner(System.in);
-        GetName();
-        GetAlter();
+        System.out.println("Sie heißen: " + GetName());
+        System.out.println("Sie sind " + GetAlter() + " Jahre alt.");
+        System.out.println("Sie sind " + GetGroeße() + "cm");        
         input.close();
     }
 
-    private void GetName(){
+    private String GetName(){
         System.out.print("Geben Sie Ihren Namen ein: ");
-        String name = input.nextLine();
-        System.out.println("Ihr Name ist: " + name);
+        return input.nextLine();
     }
 
-    private void GetAlter(){
+    private int GetAlter(){
         System.out.print("Geben Sie Ihr Alter ein: ");
-        int alter = input.nextInt();
-        System.out.println("Sie sind " + alter + " Jahre alt.");
+        return input.nextInt();
+    }
+
+    private double GetGroeße(){
+        System.out.print("Geben Sie ihre Körpergröße in cm ein: ");
+        return input.nextDouble();
     }
 }
