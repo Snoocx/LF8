@@ -27,8 +27,14 @@ public class App {
         // Benutzereingabe be = new Benutzereingabe();
         // be.Start();
 
-        Benutzereingabe_Verzweigung bv = new Benutzereingabe_Verzweigung();
-        bv.Start();
+        // Benutzereingabe_Verzweigung bv = new Benutzereingabe_Verzweigung();
+        // bv.Start();
+
+        // Bedingter_Operator bo = new Bedingter_Operator();
+        // bo.Start();
+
+        Switch sw = new Switch();
+        sw.Start();
 
     }
 
