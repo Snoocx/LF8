@@ -33,8 +33,17 @@ public class App {
         // Bedingter_Operator bo = new Bedingter_Operator();
         // bo.Start();
 
-        Switch sw = new Switch();
-        sw.Start();
+        // Switch sw = new Switch();
+        // sw.Start();
+
+        // ForSchleife fs = new ForSchleife();
+        // fs.Start();
+
+        // WhileSchleife ws = new WhileSchleife();
+        // ws.Start();
+
+        DoWhileSchleife dw = new DoWhileSchleife();
+        dw.Start();
 
     }
 
