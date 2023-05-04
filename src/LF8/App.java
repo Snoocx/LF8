@@ -65,8 +65,8 @@ public class App {
         // Count c = new Count();
         // c.Start();
 
-        // Zufallszahlen zZ = new Zufallszahlen();
-        // zZ.Start();
+        Zufallszahlen zZ = new Zufallszahlen();
+        zZ.Start();
 
         // Kreisberechnung k = new Kreisberechnung();
         // k.Start();

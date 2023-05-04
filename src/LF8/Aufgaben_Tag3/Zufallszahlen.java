@@ -9,32 +9,33 @@ public class Zufallszahlen implements IAufgabe {
         input = new Scanner(System.in);
         Generate();
         CustomGenerate();
+        input.close();
     }
 
     private void CustomGenerate(){
-        System.out.println("Wie viele Zahlen sollen generiert werden?");
+        System.out.print("\nWie viele Zahlen sollen generiert werden?: ");
         int totalNumbers = input.nextInt();
 
-        System.out.println("Zufallszahl von ");
+        System.out.print("Zufallszahl von: ");
         int rangeFrom = input.nextInt();
 
-        System.out.println("Bis ");
+        System.out.print("Bis: ");
         int rangeTo = input.nextInt();
 
         for (int number : GenerateRandomNumbers(rangeFrom, rangeTo, totalNumbers)) {
-            System.out.println(number);
-        } ;
+            System.out.print(number + " ");
+        }
     }
  
     private void Generate(){
         // 10 Zufallszahlen von 0 bis 1000
         for (int number : GenerateRandomNumbers(0, 1000, 10)) {
-            System.out.println(number);
+            System.out.print(number + " ");
         } ;
 
         // 15 Zufallszahlen von 0 bis 1
         for (int number : GenerateRandomNumbers(0, 1, 15)) {
-            System.out.println(number);
+            System.out.print(number + " ");
         } ;
     }
 
