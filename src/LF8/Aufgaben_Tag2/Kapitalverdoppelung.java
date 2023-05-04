@@ -28,6 +28,4 @@ public class Kapitalverdoppelung implements IAufgabe{
         JOptionPane.showMessageDialog(null, "Kapital: " + kapital + "\nKapitalverdoppelung nach " + jahr + " Jahren.");
         input.close();
     }
-    
-
 }

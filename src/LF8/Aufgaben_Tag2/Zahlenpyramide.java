@@ -7,7 +7,7 @@ public class Zahlenpyramide implements IAufgabe {
         String ausgabe = "";
 
         while(i < 10){
-            ausgabe = ausgabe + " " + i;
+            ausgabe = ausgabe + i + " " ;
             System.out.println(ausgabe);
             i++;
         }
