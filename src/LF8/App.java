@@ -4,6 +4,9 @@ import LF8.Aufgaben_Tag2.*;
 import LF8.Aufgaben_Tag3.Count;
 import LF8.Aufgaben_Tag3.Kreisberechnung;
 import LF8.Aufgaben_Tag3.Zufallszahlen;
+import LF8.Aufgaben_Tag4.Collatzfolge;
+import LF8.Aufgaben_Tag4.Matrix;
+import LF8.Aufgaben_Tag4.Sternenbilder;
 import LF8.Extras.*;
 
 public class App {
@@ -65,11 +68,22 @@ public class App {
         // Count c = new Count();
         // c.Start();
 
-        Zufallszahlen zZ = new Zufallszahlen();
-        zZ.Start();
+        // Zufallszahlen zZ = new Zufallszahlen();
+        // zZ.start();
 
         // Kreisberechnung k = new Kreisberechnung();
         // k.Start();
+
+        // --------------- Aufgaben Tag 4 ---------------
+
+        // Collatzfolge cf = new Collatzfolge();
+        // cf.start();
+
+        Sternenbilder sb = new Sternenbilder();
+        sb.start();
+
+        // Matrix mx = new Matrix();
+        // mx.start();
 
     }
 

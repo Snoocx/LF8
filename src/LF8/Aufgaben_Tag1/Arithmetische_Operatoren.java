@@ -2,7 +2,7 @@ package LF8.Aufgaben_Tag1;
 import LF8.Interfaces.IAufgabe;
 
 public class Arithmetische_Operatoren implements IAufgabe {
-    public void Start() {
+    public void start() {
         float a = 5f;
         float b = 10f;
         float c, d, e, f;

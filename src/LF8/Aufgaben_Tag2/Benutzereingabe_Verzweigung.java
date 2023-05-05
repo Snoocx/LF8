@@ -5,7 +5,7 @@ import LF8.Interfaces.IAufgabe;
 public class Benutzereingabe_Verzweigung implements IAufgabe {
     private Scanner input;
 
-    public void Start() {
+    public void start() {
         input = new Scanner(System.in);
         System.out.println("Geben Sie eine Zahl ein: ");
         double zahl = GetZahl();

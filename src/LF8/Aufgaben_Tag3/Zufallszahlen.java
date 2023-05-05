@@ -5,7 +5,7 @@ import LF8.Interfaces.IAufgabe;
 public class Zufallszahlen implements IAufgabe {
     private Scanner input;
 
-    public void Start() {
+    public void start() {
         input = new Scanner(System.in);
         Generate();
         CustomGenerate();

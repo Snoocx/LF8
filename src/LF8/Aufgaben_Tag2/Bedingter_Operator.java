@@ -6,7 +6,7 @@ public class Bedingter_Operator implements IAufgabe{
     int b;
     int max;
 
-    public void Start() {
+    public void start() {
         a = 3;
         b = 5;
         max = (a > b) ? a : b;

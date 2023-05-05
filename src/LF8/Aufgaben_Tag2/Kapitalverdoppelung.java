@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
 public class Kapitalverdoppelung implements IAufgabe{
     private Scanner input;
     
-    public void Start() {
+    public void start() {
         double startKapital;
         double zinsSatz;
         int jahr = 0;

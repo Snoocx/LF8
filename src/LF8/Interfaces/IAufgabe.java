@@ -1,5 +1,5 @@
 package LF8.Interfaces;
 
 public interface IAufgabe {
-    void Start();
+    void start();
 }

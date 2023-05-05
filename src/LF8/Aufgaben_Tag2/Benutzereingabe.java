@@ -5,7 +5,7 @@ import LF8.Interfaces.IAufgabe;
 public class Benutzereingabe implements IAufgabe {
     private Scanner input;
 
-    public void Start() {
+    public void start() {
         input = new Scanner(System.in);
         System.out.println("Sie heißen: " + GetName());
         System.out.println("Sie sind " + GetAlter() + " Jahre alt.");

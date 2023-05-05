@@ -5,7 +5,7 @@ import LF8.Interfaces.IAufgabe;
 public class DoWhileSchleife implements IAufgabe {
     private Scanner input;
 
-    public void Start() {
+    public void start() {
         input = new Scanner(System.in);
         Schleife();
         input.close();

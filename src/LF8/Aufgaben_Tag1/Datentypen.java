@@ -3,7 +3,7 @@ import LF8.Interfaces.IAufgabe;
 
 public class Datentypen implements IAufgabe {
 
-    public void Start() {
+    public void start() {
         char x = 'x';
         char y[] = {'x', 'y', 'z'};
         String yString = "xyz";

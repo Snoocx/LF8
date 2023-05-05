@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
 public class GGT implements IAufgabe{
     private Scanner input;
 
-    public void Start() {
+    public void start() {
         int m, n, r;
 
         input = new Scanner(System.in);

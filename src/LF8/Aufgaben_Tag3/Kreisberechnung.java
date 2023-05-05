@@ -7,7 +7,7 @@ public class Kreisberechnung implements IAufgabe{
     final float pi = 3.1415f;
     private Scanner input;
 
-    public void Start() {
+    public void start() {
         input = new Scanner(System.in);
 
         // Kreisumfang berechnen. Radius = 10cm

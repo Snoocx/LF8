@@ -2,7 +2,7 @@ package LF8.Aufgaben_Tag2;
 import LF8.Interfaces.IAufgabe;
 
 public class Zahlenpyramide implements IAufgabe {
-    public void Start() {
+    public void start() {
         int i = 0;
         String ausgabe = "";
 
