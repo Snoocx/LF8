@@ -70,7 +70,4 @@ public class Sternenbilder implements IAufgabe{
            alreadyDotted = false;
         }
     }
-
-    private void aufgabe5(int zahl){
-    }
 }
